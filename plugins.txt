@@ -53,3 +53,4 @@ jackson2-api:latest
 pipeline-graph-analysis:latest
 display-url-api:latest
 matrix-project:latest
+jenkins-ansicolor-plugin:latest

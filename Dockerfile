@@ -34,6 +34,3 @@ USER jenkins
 
 COPY plugins.txt /usr/share/jenkins/plugins.txt
 RUN /usr/local/bin/plugins.sh /usr/share/jenkins/plugins.txt
-
-COPY plugins_deps.txt /usr/share/jenkins/plugins_deps.txt
-RUN /usr/local/bin/plugins.sh /usr/share/jenkins/plugins_deps.txt

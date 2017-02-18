@@ -1,3 +1,0 @@
-pipeline-graph-analysis:latest
-display-url-api:latest
-matrix-project:latest
