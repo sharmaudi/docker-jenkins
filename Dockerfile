@@ -6,9 +6,9 @@ ENV DEBIAN_FRONTEND=noninteractive
 
 USER root
 
-ARG DOCKER_GIT=497
+ARG DOCKER_GID=999
 
-RUN groupadd -g ${DOCKER_GID:-497} docker
+RUN groupadd -g ${DOCKER_GID:-999} docker
 
 ARG DOCKER_ENGINE=1.13.0
 ARG DOCKER_COMPOSE=1.11.0
